@@ -14,6 +14,7 @@ Create, delete, update and view your Products, Catergories and Tags
 Using Insomnia enter the routes /api/categories, /api/products and /api/tags to manage the database
 
 ## Video
+https://drive.google.com/file/d/11M4E6-PPxU9AzqyYTFpw41NZ92ceM5KW/view?usp=sharing
 
 ## Author
 Thomas Holtam
