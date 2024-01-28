@@ -4,8 +4,10 @@ const sequelize = require('../config/connection.js');
 
 class Category extends Model {}
 
+// set up fields and rules for Category model
 Category.init(
   {
+    // Primary Key
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,

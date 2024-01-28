@@ -9,6 +9,7 @@ class Product extends Model {}
 // set up fields and rules for Product model
 Product.init(
   {
+    // Primary Key
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,

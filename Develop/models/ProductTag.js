@@ -4,8 +4,10 @@ const sequelize = require('../config/connection');
 
 class ProductTag extends Model {}
 
+// set up fields and rules for ProductTag model
 ProductTag.init(
   {
+        // Primary Key
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
